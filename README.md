@@ -4,7 +4,7 @@
 
 ### 1. Macbook Pro 使用和安装homebrew
 
-Macbook Pro with Apple Silicon 是苹果第二次变更器CPU架构，homebrew有尝试性支持基于Arm架构的程序的安装。此时的homebrew安装分成了安装基于arm架构的homebrew安装和支持x86_64架构homebrew的安装
+Macbook Pro with Apple Silicon 是苹果第二次变更器CPU架构，homebrew有尝试性支持基于Arm架构的程序的安装。此时的homebrew安装分成了安装基于arm架构的homebrew安装和支持x86_64架构homebrew的安装。从而对应我们安装的程序是intel架构运行的还是支持arm架构运行的。当然如果是intel架构的程序，M1 实际上后台会通过Rosetta 2来进行兼容。
 
 #### 1.1 使用如下命令安装支持arm架构的homebrew
 ```markdown
