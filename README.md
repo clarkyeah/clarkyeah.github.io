@@ -1,19 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to Tao's Pages
 
-You can use the [editor on GitHub](https://github.com/clarkyeah/clarkyeah.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+我用这个服务记录在平时开发中的一些操作经验，一方面自己忘记的时候可以重新温习，如果对于你们也有帮助，那似乎也很棒。这里并一定是原创，因为基础的知识遍布网络，所以我只是按照自己的工作和生活中的遇到的情形，将这些知识组织起来。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Macbook Pro 使用和安装homebrew
 
-### Markdown
+Macbook Pro with Apple Silicon 是苹果第二次变更器CPU架构，homebrew有常试性进行支持。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+使用如下命令安装homebrew
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+% cd /opt
+% mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+% sudo chown -R $(whoami) /opt/homebrew
 
 - Bulleted
 - List
@@ -25,8 +23,14 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
+然后将如下文件内容添加
+‘’‘markdown
+% sudo nano /etc/path
+Add the two paths
+/opt/homebrew/bin
+/opt/homebrew/opt
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+’‘’
 
 ### Jekyll Themes
 
