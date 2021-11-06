@@ -1,10 +1,10 @@
-## Welcome to Tao's Pages
+## 点滴记录开发 Tao's Pages
 
 我用这个服务记录在平时开发中的一些操作经验，一方面自己忘记的时候可以重新温习，如果对于你们也有帮助，那似乎也很棒。这里并一定是原创，因为基础的知识遍布网络，所以我只是按照自己的工作和生活中的遇到的情形，将这些知识组织起来。
 
-### Macbook Pro 使用和安装homebrew
+### 1. Macbook Pro 使用和安装homebrew
 
-Macbook Pro with Apple Silicon 是苹果第二次变更器CPU架构，homebrew有常试性进行支持。
+Macbook Pro with Apple Silicon 是苹果第二次变更器CPU架构，homebrew有尝试性进行支持。
 
 使用如下命令安装homebrew
 ```markdown
@@ -24,13 +24,13 @@ Macbook Pro with Apple Silicon 是苹果第二次变更器CPU架构，homebrew�
 [Link](url) and ![Image](src)
 ```
 然后将如下文件内容添加
-‘’‘markdown
+```markdown
 % sudo nano /etc/path
 Add the two paths
 /opt/homebrew/bin
 /opt/homebrew/opt
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-’‘’
+```
+F
 
 ### Jekyll Themes
 
